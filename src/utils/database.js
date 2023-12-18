@@ -3,7 +3,7 @@ export const database = {
     {
       id: "1",
       name: "Navy blue Shirt",
-      image: "/images/p1.jpg",
+      image: "/images/p1.png",
       price: 120,
       countInStock: 10,
       rating: 4.5,
@@ -13,7 +13,7 @@ export const database = {
     {
       id: "2",
       name: "Blue Shirt",
-      image: "/images/p2.jpg",
+      image: "/images/p2.png",
       price: 250,
       countInStock: 0,
       rating: 4.0,
@@ -23,7 +23,7 @@ export const database = {
     {
       id: "3",
       name: "Yellow Shirt",
-      image: "/images/p3.jpg",
+      image: "/images/p3.png",
       price: 25,
       countInStock: 15,
       rating: 4.5,

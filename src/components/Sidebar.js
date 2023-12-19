@@ -1,10 +1,11 @@
-import { useSelector } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import Link from "next/link";
 import Image from "next/image";
 import { addToCart, removeFromCart } from "@/redux/slices/CartSlice";
 
 export default function CartSidebar() {
-  const { loading, cartItems } = useSelector((state) => state.cart);
+  const { loading, cartItems, itemsPrice } = useSelector((state) => state.cart);
+  const dispatch = useDispatch()
 
   const addToCartHandler = async (product, qty) => {
     dispatch(addToCart({ ...product, qty }));

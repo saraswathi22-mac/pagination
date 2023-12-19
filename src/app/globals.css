@@ -34,6 +34,13 @@ body {
   @apply absolute font-bold text-orange-600 ml-8 mt-0 text-center w-4;
 }
 
+input,
+select,
+textarea {
+  @apply rounded border p-2  outline-none ring-indigo-300  focus:ring
+   dark:text-white dark:bg-gray-800;
+}
+
 .primary-button {
   @apply rounded bg-amber-300 text-black py-2 px-4 shadow outline-none hover:bg-amber-400  active:bg-amber-500;
 }
